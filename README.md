@@ -21,7 +21,7 @@ If your CSS files are in `resources/public/css` and your JS files are in `resour
     [:body]))
 ```
 
-If your CSS or JS files are in another direction:
+If your CSS or JS files are in another directory:
 
 ```clojure
 (defn index []
