@@ -21,7 +21,7 @@
 
 (deftest include-all-css-test
   (set-up-directory-structure "css" ".css")
-  (is (= (into #{} (include-all-css))
+  (is (= (into #{} (include-all-css "css"))
          #{(list [:link {:type "text/css", :href (URI. "css/foo.css"), :rel "stylesheet"}])
            (list [:link {:type "text/css", :href (URI. "css/bar.css"), :rel "stylesheet"}])
            (list [:link {:type "text/css", :href (URI. "css/baz/bat.css"), :rel "stylesheet"}])}))
@@ -29,7 +29,7 @@
 
 (deftest include-all-js-test
   (set-up-directory-structure "js" ".js")
-  (is (= (into #{} (include-all-js))         
+  (is (= (into #{} (include-all-js "js"))
          #{(list [:script {:type "text/javascript", :src (URI. "js/foo.js")}])
            (list [:script {:type "text/javascript", :src (URI. "js/bar.js")}])
            (list [:script {:type "text/javascript", :src (URI. "js/baz/bat.js")}])}))
