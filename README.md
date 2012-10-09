@@ -29,6 +29,6 @@ If your CSS or JS files are in another direction:
 
 ## License
 
-Copyright © 2012 FIXME
+Copyright © 2012 Michael Drogalis
 
 Distributed under the Eclipse Public License, the same as Clojure.
