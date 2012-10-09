@@ -16,12 +16,12 @@
     (map include-fn (map #(.getPath %) filtered-files))))
   
 (defn include-all-css
-  ([] (include-all-css "css"))
+  ([] (include-all-css "resources/public/css"))
   ([dir]
      (include-dir dir only-css-files include-css)))
 
 (defn include-all-js
-  ([] (include-all-js "js"))
+  ([] (include-all-js "resources/public/js"))
   ([dir]
      (include-dir dir only-js-files include-js)))
 
