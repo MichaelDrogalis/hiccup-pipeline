@@ -1,6 +1,6 @@
 # hiccup-pipeline
 
-Instantly include CSS and JS files into your Hiccup based HTML page.
+Automatically include CSS and JS files into your Hiccup based HTML page.
 
 ## Installation
 
