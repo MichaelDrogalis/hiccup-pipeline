@@ -2,6 +2,12 @@
 
 Instantly include CSS and JS files into your Hiccup based HTML page.
 
+## Installation
+
+```clojure
+[hiccup-pipeline "0.1.0-SNAPSHOT"]
+```
+
 ## Usage
 
 If your CSS files are in `resources/public/css` and your JS files are in `resources/public/js`:
