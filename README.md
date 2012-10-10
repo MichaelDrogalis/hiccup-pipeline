@@ -4,9 +4,7 @@ Automatically include CSS and JS files into your Hiccup based HTML page.
 
 ## Installation
 
-```clojure
-[hiccup-pipeline "0.1.0"]
-```
+    [hiccup-pipeline "0.1.0"]
 
 ## Usage
 
